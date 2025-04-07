@@ -141,7 +141,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Household_Creation</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>A Recipient picking up their monthly nutritional assistance distribution</description>
     <enableActivities>false</enableActivities>

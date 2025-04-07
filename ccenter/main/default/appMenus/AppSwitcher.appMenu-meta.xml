@@ -72,4 +72,8 @@
         <name>Calvary_Cares_Center</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Calvary_Cares_Registration</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
