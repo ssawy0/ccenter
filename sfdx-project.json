@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "ccenter",
+      "default": true
+    }
+  ],
+  "name": "ccenter",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "62.0"
+}

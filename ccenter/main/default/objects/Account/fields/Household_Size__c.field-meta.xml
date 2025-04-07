@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Household_Size__c</fullName>
+    <description>The number of people in a household</description>
+    <inlineHelpText>Please select the Household Size.  Small is 1-4, Medium is 5-8 and large is 8 and above.</inlineHelpText>
+    <label>Household Size</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Household_Size</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distribution__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Reference to the distribution the assistance is being distributed for.</description>
+    <label>Distribution</label>
+    <referenceTo>Distribution__c</referenceTo>
+    <relationshipLabel>Distribution Products</relationshipLabel>
+    <relationshipName>Distribution_Products</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

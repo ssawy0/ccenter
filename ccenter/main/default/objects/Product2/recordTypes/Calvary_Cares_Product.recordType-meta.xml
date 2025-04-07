@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calvary_Cares_Product</fullName>
+    <active>true</active>
+    <description>Products for the Calvary Cares Center</description>
+    <label>Calvary Cares Product</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>Corporate Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feeding America Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feeding America Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Donation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Rack 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack 6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
