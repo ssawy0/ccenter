@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Location__c</fullName>
-    <description>Location that a product is inventoried at.  This location will be used to generate the distribution sheet for households</description>
+    <description>This is the location of a product in Calvary Cares</description>
     <label>Location</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
@@ -39,6 +39,16 @@
                 <fullName>Rack 6</fullName>
                 <default>false</default>
                 <label>Rack 6</label>
+            </value>
+            <value>
+                <fullName>Rack 7</fullName>
+                <default>false</default>
+                <label>Rack 7</label>
+            </value>
+            <value>
+                <fullName>Rack 8</fullName>
+                <default>false</default>
+                <label>Rack 8</label>
             </value>
         </valueSetDefinition>
     </valueSet>

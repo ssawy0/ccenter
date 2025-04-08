@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Donor</fullName>
     <active>true</active>
-    <description>Person who donates to a Feeding America distribution site</description>
+    <description>An individual donor to the care program</description>
     <label>Donor</label>
     <picklistValues>
         <picklist>GenderIdentity</picklist>

@@ -12,9 +12,9 @@
         <label>Feeding America Grant</label>
     </standardValue>
     <standardValue>
-        <fullName>Feeding America Purchase</fullName>
+        <fullName>Feeding America Purchased</fullName>
         <default>false</default>
-        <label>Feeding America Purchase</label>
+        <label>Feeding America Purchased</label>
     </standardValue>
     <standardValue>
         <fullName>Corporate Donation</fullName>

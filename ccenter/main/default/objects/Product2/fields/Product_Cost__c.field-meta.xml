@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Cost__c</fullName>
+    <description>The cost that the distribution site paid to receive the donation.</description>
+    <inlineHelpText>Enter what was actually paid for the product received.</inlineHelpText>
+    <label>Product Cost</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -143,8 +143,8 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Product that is distributed to a household and how much of that product for a distribution.</description>
-    <enableActivities>false</enableActivities>
+    <description>The products that should be given to recipients at the care center for this distribtuion.</description>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -156,12 +156,17 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Distribution Product</label>
     <nameField>
-        <displayFormat>DP-{YYYY}-{MM}-{0000}</displayFormat>
+        <displayFormat>DP-{YYYY}-{MM}-{00000}</displayFormat>
         <label>Distribution Product Name</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Distribution Products</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Distribution__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Household_Size__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Quantity_Dispersed__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

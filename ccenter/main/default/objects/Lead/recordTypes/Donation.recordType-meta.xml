@@ -3,7 +3,7 @@
     <fullName>Donation</fullName>
     <active>true</active>
     <businessProcess>Donation Process</businessProcess>
-    <description>Donation Process</description>
+    <description>Record type to identify potential donations for the Care Center</description>
     <label>Donation</label>
     <picklistValues>
         <picklist>GenderIdentity</picklist>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Calvary_Cares_Product</fullName>
+    <fullName>Care_Center_Inventory</fullName>
     <active>true</active>
-    <description>Products for the Calvary Cares Center</description>
-    <label>Calvary Cares Product</label>
+    <description>Inventory for a Distribtuion Site or Care Center</description>
+    <label>Care Center Inventory</label>
     <picklistValues>
         <picklist>Family</picklist>
         <values>
@@ -15,7 +15,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Feeding America Purchase</fullName>
+            <fullName>Feeding America Purchased</fullName>
             <default>false</default>
         </values>
         <values>
@@ -51,6 +51,14 @@
         </values>
         <values>
             <fullName>Rack 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack 8</fullName>
             <default>false</default>
         </values>
     </picklistValues>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Recipient__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>The person who picked up the food assistance for the household.</description>
+    <description>The person who actually receives a distribution</description>
     <label>Recipient</label>
     <lookupFilter>
         <active>true</active>

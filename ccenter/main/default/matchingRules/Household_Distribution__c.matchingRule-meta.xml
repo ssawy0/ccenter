@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MatchingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <matchingRules>
-        <fullName>Houshold_Already_Received_Distribution</fullName>
+        <fullName>Household_Distribution_Duplicate</fullName>
         <booleanFilter>1 AND 2 AND 3</booleanFilter>
-        <label>Houshold Already Received Distribution</label>
+        <description>Determines if a duplicate record is matched</description>
+        <label>Household Distribution Duplicate</label>
         <matchingRuleItems>
             <blankValueBehavior>NullNotAllowed</blankValueBehavior>
-            <fieldName>Household__c</fieldName>
+            <fieldName>Distribution_Year__c</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
         <matchingRuleItems>
             <blankValueBehavior>NullNotAllowed</blankValueBehavior>
-            <fieldName>Distribution_Year__c</fieldName>
+            <fieldName>Household__c</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
         <matchingRuleItems>

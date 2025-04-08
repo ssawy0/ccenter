@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Quantity_Dispersed__c</fullName>
-    <description>The quantity of an item that should be distributed to a household as part of thie current distribution.</description>
+    <description>How many of a product is received for a distribution.  This is household size specific.</description>
     <externalId>false</externalId>
     <label>Quantity Dispersed</label>
     <precision>5</precision>
-    <required>true</required>
+    <required>false</required>
     <scale>0</scale>
     <trackTrending>false</trackTrending>
     <type>Number</type>

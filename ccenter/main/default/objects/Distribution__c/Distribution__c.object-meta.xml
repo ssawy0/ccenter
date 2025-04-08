@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>A scheduled distribution of food assistance from a Distribution Site</description>
+    <description>This is a monthly distribution of food assistance at a care center</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -156,9 +156,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Distribution</label>
     <nameField>
-        <displayFormat>{YYYY}-{MM}-{0000}</displayFormat>
         <label>Distribution Name</label>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Distributions</pluralLabel>
     <searchLayouts></searchLayouts>

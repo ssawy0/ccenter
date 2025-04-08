@@ -2,19 +2,20 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Product__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
+    <description>The product that is being distributed</description>
     <label>Product</label>
     <lookupFilter>
         <active>true</active>
         <filterItems>
             <field>Product2.RecordTypeId</field>
             <operation>equals</operation>
-            <value>Calvary Cares Product</value>
+            <value>Care Center Inventory</value>
         </filterItems>
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>Product2</referenceTo>
     <relationshipLabel>Distribution Products</relationshipLabel>
-    <relationshipName>Distribution_Products</relationshipName>
+    <relationshipName>Distribution_Products1</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

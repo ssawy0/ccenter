@@ -141,10 +141,10 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>Household_Creation</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>A Recipient picking up their monthly nutritional assistance distribution</description>
-    <enableActivities>false</enableActivities>
+    <description>The receipt of a distribution to a household</description>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -156,7 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Household Distribution</label>
     <nameField>
-        <displayFormat>HD-{YYYY}-{MM}-{0000}</displayFormat>
+        <displayFormat>{YYYY}-{MM}-{00000}</displayFormat>
         <label>Household Distribution Name</label>
         <type>AutoNumber</type>
     </nameField>

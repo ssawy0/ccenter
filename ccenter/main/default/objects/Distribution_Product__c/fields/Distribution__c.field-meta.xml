@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Distribution__c</fullName>
-    <deleteConstraint>Restrict</deleteConstraint>
-    <description>Reference to the distribution the assistance is being distributed for.</description>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Reference to the distribution this product is allocated for.</description>
     <label>Distribution</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <filterItems>
+            <field>Distribution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Pending</value>
+        </filterItems>
+        <filterItems>
+            <field>Distribution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
     <referenceTo>Distribution__c</referenceTo>
     <relationshipLabel>Distribution Products</relationshipLabel>
-    <relationshipName>Distribution_Products</relationshipName>
-    <required>true</required>
+    <relationshipName>Distribution_Products1</relationshipName>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
 </CustomField>

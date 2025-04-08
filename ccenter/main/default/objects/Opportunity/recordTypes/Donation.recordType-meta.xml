@@ -3,7 +3,7 @@
     <fullName>Donation</fullName>
     <active>true</active>
     <businessProcess>Donation Process</businessProcess>
-    <description>Donation of one or more products to a Distribution Site</description>
+    <description>Opportunity to process a donation and receive it for the care center.</description>
     <label>Donation</label>
     <picklistValues>
         <picklist>ForecastCategoryName</picklist>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Donation Process</fullName>
-    <description>The process of receiving a care center donation for Calvary Cares</description>
+    <description>Stages for receiving a donation</description>
     <isActive>true</isActive>
     <values>
         <fullName>Closed - Converted</fullName>

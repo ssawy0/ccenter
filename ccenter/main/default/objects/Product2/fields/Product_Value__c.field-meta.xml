@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Value__c</fullName>
+    <description>The value of the product.  This will allow a distribution site to track the value of the food they have distributed, independent of what they paid for it.   Can also be used to provide tax exemption receipts for donors.</description>
+    <inlineHelpText>Enter the value of the product or what the distribution site would have had to pay for the product.</inlineHelpText>
+    <label>Product Value</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

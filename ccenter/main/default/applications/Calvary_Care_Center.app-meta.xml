@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Application for inventory and guest management at the Calvary Cares Center</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Calvary Care Center</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Distribution_Registration_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Distribution__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Calvary Cares User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Distribution_Registration_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Distribution__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Calvary Cares User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Distribution_Registration_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Distribution__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Distribution_Registration_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Distribution__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <tabs>Distribution__c</tabs>
+    <tabs>Household_Distribution__c</tabs>
+    <tabs>Distribution_Product__c</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-report</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Calvary_Care_Center_UtilityBar</utilityBar>
+</CustomApplication>

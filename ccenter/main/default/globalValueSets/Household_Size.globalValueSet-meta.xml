@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Small</fullName>
+        <fullName>Small - 1-4 household members</fullName>
         <default>false</default>
-        <label>Small</label>
+        <label>Small - 1-4 household members</label>
     </customValue>
     <customValue>
-        <fullName>Medium</fullName>
+        <fullName>Medium 5-7 household members</fullName>
         <default>false</default>
-        <label>Medium</label>
+        <label>Medium 5-7 household members</label>
     </customValue>
     <customValue>
-        <fullName>Large</fullName>
+        <fullName>Large 8+ household member</fullName>
         <default>false</default>
-        <label>Large</label>
+        <label>Large 8+ household member</label>
     </customValue>
-    <description>The number of people in a household</description>
+    <description>The number of residents living at an address for a food assistance distribution.</description>
     <masterLabel>Household Size</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
